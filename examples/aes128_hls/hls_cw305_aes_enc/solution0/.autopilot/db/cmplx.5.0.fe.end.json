@@ -1,0 +1,38 @@
+{
+    "1": {
+        "name": "Sbox",
+        "file": "AES_Encrypt.cpp",
+        "fileloc": "0",
+        "instructions": "261",
+        "total_instructions": "261",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "0": {
+        "name": "AES128Encrypt",
+        "file": "AES_Encrypt.cpp",
+        "fileloc": "167",
+        "instructions": "350",
+        "total_instructions": "5727",
+        "calls": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1",
+        "basicblocks": "7",
+        "loads": {
+            "L": "58"
+        },
+        "stores": {
+            "L": "84"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "2": {
+        "name": "MixColumns",
+        "file": "AES_Encrypt.cpp",
+        "fileloc": "0",
+        "instructions": "157",
+        "total_instructions": "157",
+        "calls": "",
+        "basicblocks": "1"
+    }
+}

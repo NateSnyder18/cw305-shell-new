@@ -1,0 +1,88 @@
+{
+  "0": {
+    "basicblocks": 6,
+    "calls": "2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 1 1 1 1 2",
+    "file": "AES_Encrypt.cpp",
+    "fileloc": 167,
+    "instructions": 372,
+    "loads": {
+      "L": 48,
+      "T": 2
+    },
+    "name": "AES128Encrypt",
+    "stores": {
+      "L": 28,
+      "T": 1
+    },
+    "total_instructions": 11696
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "3 3 3",
+    "file": "Sbox_Composite.cpp",
+    "fileloc": 163,
+    "instructions": 200,
+    "loads": {
+      "L": 3
+    },
+    "name": "Sbox",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 521
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "AES_Encrypt.cpp",
+    "fileloc": 27,
+    "instructions": 97,
+    "loads": {
+      "L": 16
+    },
+    "name": "AddRoundKey",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 97
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "Sbox_Composite.cpp",
+    "fileloc": 122,
+    "instructions": 107,
+    "name": "gf4_mult",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 107
+  },
+  "4": {
+    "basicblocks": 18,
+    "calls": "",
+    "file": "AES_Encrypt.cpp",
+    "fileloc": 122,
+    "instructions": 160,
+    "name": "MixSingleColumn",
+    "stores": {
+      "L": 64
+    },
+    "total_instructions": 160
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "4 4 4 4",
+    "file": "AES_Encrypt.cpp",
+    "fileloc": 149,
+    "instructions": 70,
+    "loads": {
+      "L": 32
+    },
+    "name": "MixColumns",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 710
+  }
+}

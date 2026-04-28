@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="AES128Encrypt.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_dataflow_monitor_sv " />
+            <top_module name="apatb_AES128Encrypt_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0ns"></ZoomStartTime>
+      <ZoomEndTime time="2000ns"></ZoomEndTime>
+      <Cursor1Time time="0ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="HLS Process Summary Group" type="group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt//AESL_inst_AES128Encrypt_activity" type="group">
+         <obj_property name="label">AESL_inst_AES128Encrypt_activity</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">AESL_inst_AES128Encrypt_activity</obj_property>
+         <obj_property name="ObjectShortName">AESL_inst_AES128Encrypt_activity</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt//AESL_inst_AES128Encrypt_activity.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt//AESL_inst_AES128Encrypt_activity.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt//AESL_inst_AES128Encrypt_activity.dataflowTxTooltipData</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/AESL_inst_AES128Encrypt_activity" type="protoinst">
+      <obj_property name="ElementShortName">AESL_inst_AES128Encrypt_activity</obj_property>
+      <obj_property name="ObjectShortName">AESL_inst_AES128Encrypt_activity</obj_property>
+   </wvobject>
+   <wvobject fp_name="AESL_inst_AES128Encrypt_group" type="group">
+      <obj_property name="label">AESL_inst_AES128Encrypt</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="AESL_inst_AES128Encrypt_Handshake_group" type="group">
+         <obj_property name="label">Block-level handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/ap_continue" type="logic">
+            <obj_property name="ElementShortName">ap_continue</obj_property>
+            <obj_property name="ObjectShortName">ap_continue</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group19" type="group">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group20" type="group">
+         <obj_property name="label">C InOuts</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group21" type="group">
+            <obj_property name="label">key__plaintext__ciphertext(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group22" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_RRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_RUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_RID" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_RDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_RDATA[127:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_RDATA[127:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARID" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_ARADDR[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_ARADDR[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group23" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_BUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_BID" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_BRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_WUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_WID" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_WSTRB" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_WSTRB[15:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_WSTRB[15:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_WDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_WDATA[127:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_WDATA[127:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWID" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_data_AWADDR[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_AWADDR[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group24" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_BREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_data_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_BVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_data_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_RLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_data_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_RREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_data_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_RVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_data_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_data_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_data_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_WLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_data_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_WREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_data_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_WVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_data_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_data_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_data_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_data_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group70" type="group">
+            <obj_property name="label">key__plaintext__ciphertext__return(axi_slave)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/interrupt" type="logic">
+               <obj_property name="ElementShortName">interrupt</obj_property>
+               <obj_property name="ObjectShortName">interrupt</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_BRESP" type="array">
+               <obj_property name="ElementShortName">s_axi_control_BRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_BRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_BREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_BREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_BREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_BVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_BVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_BVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_RRESP" type="array">
+               <obj_property name="ElementShortName">s_axi_control_RRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_RDATA" type="array">
+               <obj_property name="ElementShortName">s_axi_control_RDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_RREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_RREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_RVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_RVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_ARREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_ARREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_ARREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_ARVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_ARVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_ARVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_ARADDR" type="array">
+               <obj_property name="ElementShortName">s_axi_control_ARADDR[5:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_ARADDR[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_WSTRB" type="array">
+               <obj_property name="ElementShortName">s_axi_control_WSTRB[3:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WSTRB[3:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_WDATA" type="array">
+               <obj_property name="ElementShortName">s_axi_control_WDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_WREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_WREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_WVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_WVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_AWREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_AWREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_AWREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_AWVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_AWVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_AWVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_AWADDR" type="array">
+               <obj_property name="ElementShortName">s_axi_control_AWADDR[5:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_AWADDR[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group89" type="group">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/ap_rst_n" type="logic">
+            <obj_property name="ElementShortName">ap_rst_n</obj_property>
+            <obj_property name="ObjectShortName">ap_rst_n</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group91" type="group">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/ap_clk" type="logic">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group93" type="group">
+      <obj_property name="label">Test Bench Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group94" type="group">
+         <obj_property name="label">Internal Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group95" type="group">
+            <obj_property name="label">Simulation Status</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/AUTOTB_TRANSACTION_NUM" type="array">
+               <obj_property name="ElementShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/ready_cnt" type="array">
+               <obj_property name="ElementShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/done_cnt" type="array">
+               <obj_property name="ElementShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group96" type="group">
+            <obj_property name="label">Port Depth</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/LENGTH_ciphertext" type="array">
+               <obj_property name="ElementShortName">LENGTH_ciphertext[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_ciphertext[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/LENGTH_data" type="array">
+               <obj_property name="ElementShortName">LENGTH_data[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_data[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/LENGTH_key" type="array">
+               <obj_property name="ElementShortName">LENGTH_key[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_key[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/LENGTH_plaintext" type="array">
+               <obj_property name="ElementShortName">LENGTH_plaintext[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_plaintext[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group104" type="group">
+         <obj_property name="label">C InOuts</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group105" type="group">
+            <obj_property name="label">key__plaintext__ciphertext(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group106" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_RRESP" type="array">
+                  <obj_property name="ElementShortName">data_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_RUSER" type="array">
+                  <obj_property name="ElementShortName">data_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_RID" type="array">
+                  <obj_property name="ElementShortName">data_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_RDATA" type="array">
+                  <obj_property name="ElementShortName">data_RDATA[127:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_RDATA[127:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_ARUSER" type="array">
+                  <obj_property name="ElementShortName">data_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_ARREGION" type="array">
+                  <obj_property name="ElementShortName">data_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_ARQOS" type="array">
+                  <obj_property name="ElementShortName">data_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_ARPROT" type="array">
+                  <obj_property name="ElementShortName">data_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">data_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">data_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_ARBURST" type="array">
+                  <obj_property name="ElementShortName">data_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">data_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_ARLEN" type="array">
+                  <obj_property name="ElementShortName">data_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_ARID" type="array">
+                  <obj_property name="ElementShortName">data_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_ARADDR" type="array">
+                  <obj_property name="ElementShortName">data_ARADDR[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_ARADDR[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group107" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_BUSER" type="array">
+                  <obj_property name="ElementShortName">data_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_BID" type="array">
+                  <obj_property name="ElementShortName">data_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_BRESP" type="array">
+                  <obj_property name="ElementShortName">data_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_WUSER" type="array">
+                  <obj_property name="ElementShortName">data_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_WID" type="array">
+                  <obj_property name="ElementShortName">data_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_WSTRB" type="array">
+                  <obj_property name="ElementShortName">data_WSTRB[15:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_WSTRB[15:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_WDATA" type="array">
+                  <obj_property name="ElementShortName">data_WDATA[127:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_WDATA[127:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_AWUSER" type="array">
+                  <obj_property name="ElementShortName">data_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_AWREGION" type="array">
+                  <obj_property name="ElementShortName">data_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_AWQOS" type="array">
+                  <obj_property name="ElementShortName">data_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_AWPROT" type="array">
+                  <obj_property name="ElementShortName">data_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">data_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">data_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_AWBURST" type="array">
+                  <obj_property name="ElementShortName">data_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">data_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_AWLEN" type="array">
+                  <obj_property name="ElementShortName">data_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_AWID" type="array">
+                  <obj_property name="ElementShortName">data_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_AWADDR" type="array">
+                  <obj_property name="ElementShortName">data_AWADDR[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_AWADDR[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group108" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_BREADY" type="logic">
+                  <obj_property name="ElementShortName">data_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">data_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_BVALID" type="logic">
+                  <obj_property name="ElementShortName">data_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">data_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_RLAST" type="logic">
+                  <obj_property name="ElementShortName">data_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">data_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_RREADY" type="logic">
+                  <obj_property name="ElementShortName">data_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">data_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_RVALID" type="logic">
+                  <obj_property name="ElementShortName">data_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">data_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">data_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">data_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">data_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">data_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_WLAST" type="logic">
+                  <obj_property name="ElementShortName">data_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">data_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_WREADY" type="logic">
+                  <obj_property name="ElementShortName">data_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">data_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_WVALID" type="logic">
+                  <obj_property name="ElementShortName">data_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">data_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">data_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">data_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_AES128Encrypt_top/data_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">data_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">data_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group154" type="group">
+            <obj_property name="label">key__plaintext__ciphertext__return(axi_slave)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_INTERRUPT" type="logic">
+               <obj_property name="ElementShortName">control_INTERRUPT</obj_property>
+               <obj_property name="ObjectShortName">control_INTERRUPT</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_BRESP" type="array">
+               <obj_property name="ElementShortName">control_BRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">control_BRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_BREADY" type="logic">
+               <obj_property name="ElementShortName">control_BREADY</obj_property>
+               <obj_property name="ObjectShortName">control_BREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_BVALID" type="logic">
+               <obj_property name="ElementShortName">control_BVALID</obj_property>
+               <obj_property name="ObjectShortName">control_BVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_RRESP" type="array">
+               <obj_property name="ElementShortName">control_RRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">control_RRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_RDATA" type="array">
+               <obj_property name="ElementShortName">control_RDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">control_RDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_RREADY" type="logic">
+               <obj_property name="ElementShortName">control_RREADY</obj_property>
+               <obj_property name="ObjectShortName">control_RREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_RVALID" type="logic">
+               <obj_property name="ElementShortName">control_RVALID</obj_property>
+               <obj_property name="ObjectShortName">control_RVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_ARREADY" type="logic">
+               <obj_property name="ElementShortName">control_ARREADY</obj_property>
+               <obj_property name="ObjectShortName">control_ARREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_ARVALID" type="logic">
+               <obj_property name="ElementShortName">control_ARVALID</obj_property>
+               <obj_property name="ObjectShortName">control_ARVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_ARADDR" type="array">
+               <obj_property name="ElementShortName">control_ARADDR[5:0]</obj_property>
+               <obj_property name="ObjectShortName">control_ARADDR[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_WSTRB" type="array">
+               <obj_property name="ElementShortName">control_WSTRB[3:0]</obj_property>
+               <obj_property name="ObjectShortName">control_WSTRB[3:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_WDATA" type="array">
+               <obj_property name="ElementShortName">control_WDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">control_WDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_WREADY" type="logic">
+               <obj_property name="ElementShortName">control_WREADY</obj_property>
+               <obj_property name="ObjectShortName">control_WREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_WVALID" type="logic">
+               <obj_property name="ElementShortName">control_WVALID</obj_property>
+               <obj_property name="ObjectShortName">control_WVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_AWREADY" type="logic">
+               <obj_property name="ElementShortName">control_AWREADY</obj_property>
+               <obj_property name="ObjectShortName">control_AWREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_AWVALID" type="logic">
+               <obj_property name="ElementShortName">control_AWVALID</obj_property>
+               <obj_property name="ObjectShortName">control_AWVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_AES128Encrypt_top/control_AWADDR" type="array">
+               <obj_property name="ElementShortName">control_AWADDR[5:0]</obj_property>
+               <obj_property name="ObjectShortName">control_AWADDR[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Apr 28 14:42:37 2026
+# Process ID: 84056
+# Current directory: C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/impl/ip/vivado.log
+# Journal file: C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/impl/ip\vivado.jou
+# Running On: DTKLaptop, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 24, Host memory: 34086 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

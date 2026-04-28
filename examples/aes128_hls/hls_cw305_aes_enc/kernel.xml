@@ -1,0 +1,15 @@
+<root versionMajor = "1" versionMinor = "5">
+  <kernel name="AES128Encrypt" language="c" vlnv="xilinx.com:hls:AES128Encrypt:1.0" attributes="" hash="" preferredWorkGroupSizeMultiple="0" workGroupSize="1" debug="false" compileOptions="" profileType="" hwControlProtocol="ap_ctrl_chain">
+    <ports>
+      <port name="M_AXI_DATA" portType="addressable" mode="master" base="0x0" range="0xFFFFFFFF" dataWidth="128"/>
+      <port name="S_AXI_CONTROL" portType="addressable" mode="slave" base="0x0" range="0x1028" dataWidth="32"/>
+    </ports>
+    <args>
+      <arg id="0" name="key" addressQualifier="1" port="M_AXI_DATA" hostOffset="0x0" hostSize="0x8" offset="0x10" size="0x4" type="void*"/>
+      <arg id="1" name="plaintext" addressQualifier="1" port="M_AXI_DATA" hostOffset="0x0" hostSize="0x8" offset="0x18" size="0x4" type="void*"/>
+      <arg id="2" name="ciphertext" addressQualifier="1" port="M_AXI_DATA" hostOffset="0x0" hostSize="0x8" offset="0x20" size="0x4" type="void*"/>
+    </args>
+    <compileWorkGroupSize x="1" y="1" z="1"/>
+    <maxWorkGroupSize x="1" y="1" z="1"/>
+  </kernel>
+</root>

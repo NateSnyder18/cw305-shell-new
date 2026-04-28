@@ -1,0 +1,130 @@
+---
+MainSourceFile:  'C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/.autopilot/db/AES_Encrypt.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1213_1:  '
+    FileOffset:      1213
+    FilePath:        'C:\Xilinx\Vitis_HLS\2023.1\common\technology\autopilot\etc\ap_int_base.h'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\AES_Encrypt.pp.0.cpp'
+        Offset:          55355
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'C:\Xilinx\Vitis_HLS\2023.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\AES_Encrypt.pp.0.cpp'
+        Offset:          282679
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'C:\Xilinx\Vitis_HLS\2023.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\AES_Encrypt.pp.0.cpp'
+        Offset:          283143
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'C:\Xilinx\Vitis_HLS\2023.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\AES_Encrypt.pp.0.cpp'
+        Offset:          283608
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        'C:\Xilinx\Vitis_HLS\2023.1\common\technology\autopilot\etc\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\AES_Encrypt.pp.0.cpp'
+        Offset:          566285
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_21_1:  '
+    FileOffset:      21
+    FilePath:        'C:\Users\dtk\cw305-shell\examples\ip_repo\aes128_hls\src\AES_Encrypt.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\AES_Encrypt.pp.0.cpp'
+        Offset:          934068
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_21_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_30_1:  '
+    FileOffset:      30
+    FilePath:        'C:\Users\dtk\cw305-shell\examples\ip_repo\aes128_hls\src\AES_Encrypt.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\AES_Encrypt.pp.0.cpp'
+        Offset:          934236
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_30_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_45_1:  '
+    FileOffset:      45
+    FilePath:        'C:\Users\dtk\cw305-shell\examples\ip_repo\aes128_hls\src\AES_Encrypt.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\AES_Encrypt.pp.0.cpp'
+        Offset:          934580
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_45_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_61_2:  '
+    FileOffset:      61
+    FilePath:        'C:\Users\dtk\cw305-shell\examples\ip_repo\aes128_hls\src\AES_Encrypt.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\AES_Encrypt.pp.0.cpp'
+        Offset:          935012
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_61_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_67_3:  '
+    FileOffset:      67
+    FilePath:        'C:\Users\dtk\cw305-shell\examples\ip_repo\aes128_hls\src\AES_Encrypt.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\AES_Encrypt.pp.0.cpp'
+        Offset:          935127
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_67_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_1:  '
+    FileOffset:      116
+    FilePath:        'C:\Users\dtk\cw305-shell\examples\ip_repo\aes128_hls\src\AES_Encrypt.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\AES_Encrypt.pp.0.cpp'
+        Offset:          935962
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_1:  '
+    FileOffset:      136
+    FilePath:        'C:\Users\dtk\cw305-shell\examples\ip_repo\aes128_hls\src\AES_Encrypt.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\AES_Encrypt.pp.0.cpp'
+        Offset:          936192
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_156_1:  '
+    FileOffset:      156
+    FilePath:        'C:\Users\dtk\cw305-shell\examples\ip_repo\aes128_hls\src\AES_Encrypt.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\AES_Encrypt.pp.0.cpp'
+        Offset:          936666
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_156_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_160_2:  '
+    FileOffset:      160
+    FilePath:        'C:\Users\dtk\cw305-shell\examples\ip_repo\aes128_hls\src\AES_Encrypt.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\AES_Encrypt.pp.0.cpp'
+        Offset:          936782
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_160_2: '
+...

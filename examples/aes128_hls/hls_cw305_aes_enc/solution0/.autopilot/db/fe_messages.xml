@@ -1,0 +1,216 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:22:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="SubBytes" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:31:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AddRoundKey" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:40:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="KeyExpansion" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=expanded_key complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:41:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="KeyExpansion" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=subbytes_key complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:46:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="KeyExpansion" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:62:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="KeyExpansion" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:68:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="KeyExpansion" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:83:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ShiftRows" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=next_state complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:117:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ShiftRows" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:138:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MixSingleColumn" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:150:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MixColumns" ARG_PragmaIsValid="1" ARG_PragmaOptions="recursive" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:152:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MixColumns" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=next_state complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:157:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MixColumns" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:161:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MixColumns" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/dtk/cw305-shell/examples/ip_repo/aes128_hls/create_ip.tcl:77:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="AES128Encrypt" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=AES128Encrypt" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:169:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AES128Encrypt" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=m_axi port=key offset=slave bundle=data depth=16" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:170:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AES128Encrypt" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=m_axi port=plaintext offset=slave bundle=data depth=16" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:171:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AES128Encrypt" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=m_axi port=ciphertext offset=slave bundle=data depth=16" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:182:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AES128Encrypt" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=state complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:183:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AES128Encrypt" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=scheduled_key complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:187:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AES128Encrypt" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:195:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AES128Encrypt" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:208:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AES128Encrypt" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:74:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="gf8_isomorphic_map" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:84:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="gf8_inv_isomorphic_map" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:116:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="affine_transform" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:165:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Sbox" ARG_PragmaIsValid="1" ARG_PragmaOptions="recursive" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:67:19" msg_body="Loop 'VITIS_LOOP_67_3' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_67_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:61:19" msg_body="Loop 'VITIS_LOOP_61_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_61_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:45:19" msg_body="Loop 'VITIS_LOOP_45_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_45_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:160:20" msg_body="Loop 'VITIS_LOOP_160_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_160_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:156:20" msg_body="Loop 'VITIS_LOOP_156_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_156_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:136:20" msg_body="Loop 'VITIS_LOOP_136_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_136_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:116:20" msg_body="Loop 'VITIS_LOOP_116_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_116_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:21:19" msg_body="Loop 'VITIS_LOOP_21_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_21_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:115:20" msg_body="Loop 'VITIS_LOOP_115_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_115_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:83:19" msg_body="Loop 'VITIS_LOOP_83_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_83_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:73:19" msg_body="Loop 'VITIS_LOOP_73_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_73_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:30:19" msg_body="Loop 'VITIS_LOOP_30_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_30_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:168:0" msg_body="Unrolling loop 'LOOP_COPY_OUT' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:207:17) in function 'AES128Encrypt' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:207:17" LoopName="LOOP_COPY_OUT"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:168:0" msg_body="Unrolling loop 'LOOP_COPY_IN' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:186:16) in function 'AES128Encrypt' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:186:16" LoopName="LOOP_COPY_IN"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:36:0" msg_body="Unrolling loop 'VITIS_LOOP_67_3' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:67:19) in function 'KeyExpansion' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:67:19" LoopName="VITIS_LOOP_67_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:36:0" msg_body="Unrolling loop 'VITIS_LOOP_61_2' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:61:19) in function 'KeyExpansion' completely with a factor of 12">
+        <args Factor="12" LoopLoc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:61:19" LoopName="VITIS_LOOP_61_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:36:0" msg_body="Unrolling loop 'VITIS_LOOP_45_1' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:45:19) in function 'KeyExpansion' completely with a factor of 4">
+        <args Factor="4" LoopLoc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:45:19" LoopName="VITIS_LOOP_45_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:149:0" msg_body="Unrolling loop 'VITIS_LOOP_160_2' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:160:20) in function 'MixColumns' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:160:20" LoopName="VITIS_LOOP_160_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:149:0" msg_body="Unrolling loop 'VITIS_LOOP_156_1' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:156:20) in function 'MixColumns' completely with a factor of 4">
+        <args Factor="4" LoopLoc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:156:20" LoopName="VITIS_LOOP_156_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:123:0" msg_body="Unrolling loop 'VITIS_LOOP_136_1' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:136:20) in function 'MixSingleColumn' completely with a factor of 4">
+        <args Factor="4" LoopLoc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:136:20" LoopName="VITIS_LOOP_136_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:123:0" msg_body="Pipeline directive for loop 'VITIS_LOOP_136_1' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:136:20) in function 'MixSingleColumn' has been removed because the loop is unrolled completely">
+        <args LoopLoc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:136:20" LoopName="VITIS_LOOP_136_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:81:0" msg_body="Unrolling loop 'VITIS_LOOP_116_1' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:116:20) in function 'ShiftRows' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:116:20" LoopName="VITIS_LOOP_116_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:18:0" msg_body="Unrolling loop 'VITIS_LOOP_21_1' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:21:19) in function 'SubBytes' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:21:19" LoopName="VITIS_LOOP_21_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:113:0" msg_body="Unrolling loop 'VITIS_LOOP_115_1' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:115:20) in function 'affine_transform' completely with a factor of 8">
+        <args Factor="8" LoopLoc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:115:20" LoopName="VITIS_LOOP_115_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:81:0" msg_body="Unrolling loop 'VITIS_LOOP_83_1' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:83:19) in function 'gf8_inv_isomorphic_map' completely with a factor of 8">
+        <args Factor="8" LoopLoc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:83:19" LoopName="VITIS_LOOP_83_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:71:0" msg_body="Unrolling loop 'VITIS_LOOP_73_1' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:73:19) in function 'gf8_isomorphic_map' completely with a factor of 8">
+        <args Factor="8" LoopLoc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:73:19" LoopName="VITIS_LOOP_73_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:27:0" msg_body="Unrolling loop 'VITIS_LOOP_30_1' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:30:19) in function 'AddRoundKey' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:30:19" LoopName="VITIS_LOOP_30_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:123:0" msg_body="Inlining function 'gf2_mult(ap_int&lt;2&gt;, ap_int&lt;2&gt;)' into 'gf4_mult(ap_int&lt;4&gt;, ap_int&lt;4&gt;)'">
+        <args Callee="gf2_mult(ap_int&lt;2&gt;, ap_int&lt;2&gt;)" Callee-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 52 Column 0" Caller="gf4_mult(ap_int&lt;4&gt;, ap_int&lt;4&gt;)" Caller-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 123 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:123:0" msg_body="Inlining function 'gf2_mult_phi(ap_int&lt;2&gt;)' into 'gf4_mult(ap_int&lt;4&gt;, ap_int&lt;4&gt;)'">
+        <args Callee="gf2_mult_phi(ap_int&lt;2&gt;)" Callee-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 60 Column 0" Caller="gf4_mult(ap_int&lt;4&gt;, ap_int&lt;4&gt;)" Caller-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 123 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:164:0" msg_body="Inlining function 'gf8_isomorphic_map(ap_int&lt;8&gt;)' into 'Sbox(unsigned char*, unsigned char*)'">
+        <args Callee="gf8_isomorphic_map(ap_int&lt;8&gt;)" Callee-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 71 Column 0" Caller="Sbox(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 164 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:164:0" msg_body="Inlining function 'gf4_square(ap_int&lt;4&gt;)' into 'Sbox(unsigned char*, unsigned char*)'">
+        <args Callee="gf4_square(ap_int&lt;4&gt;)" Callee-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 91 Column 0" Caller="Sbox(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 164 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:164:0" msg_body="Inlining function 'gf4_mult_lambda(ap_int&lt;4&gt;)' into 'Sbox(unsigned char*, unsigned char*)'">
+        <args Callee="gf4_mult_lambda(ap_int&lt;4&gt;)" Callee-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 101 Column 0" Caller="Sbox(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 164 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:164:0" msg_body="Inlining function 'gf4_mult_inv(ap_int&lt;4&gt;)' into 'Sbox(unsigned char*, unsigned char*)'">
+        <args Callee="gf4_mult_inv(ap_int&lt;4&gt;)" Callee-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 152 Column 0" Caller="Sbox(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 164 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:164:0" msg_body="Inlining function 'gf8_inv_isomorphic_map(ap_int&lt;8&gt;)' into 'Sbox(unsigned char*, unsigned char*)'">
+        <args Callee="gf8_inv_isomorphic_map(ap_int&lt;8&gt;)" Callee-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 81 Column 0" Caller="Sbox(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 164 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/Sbox_Composite.cpp:164:0" msg_body="Inlining function 'affine_transform(ap_int&lt;8&gt;)' into 'Sbox(unsigned char*, unsigned char*)'">
+        <args Callee="affine_transform(ap_int&lt;8&gt;)" Callee-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 113 Column 0" Caller="Sbox(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../ip_repo/aes128_hls/src/Sbox_Composite.cpp Line 164 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:123:0" msg_body="Inlining function 'xtime(ap_int&lt;8&gt;)' into 'MixSingleColumn(unsigned char*, unsigned char*)'">
+        <args Callee="xtime(ap_int&lt;8&gt;)" Callee-DebugLoc="File ../ip_repo/aes128_hls/src/AES_Encrypt.cpp Line 73 Column 0" Caller="MixSingleColumn(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../ip_repo/aes128_hls/src/AES_Encrypt.cpp Line 123 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:168:0" msg_body="Inlining function 'SubBytes(unsigned char*)' into 'AES128Encrypt(unsigned char const*, unsigned char const*, unsigned char*)'">
+        <args Callee="SubBytes(unsigned char*)" Callee-DebugLoc="File ../ip_repo/aes128_hls/src/AES_Encrypt.cpp Line 18 Column 0" Caller="AES128Encrypt(unsigned char const*, unsigned char const*, unsigned char*)" Caller-DebugLoc="File ../ip_repo/aes128_hls/src/AES_Encrypt.cpp Line 168 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:168:0" msg_body="Inlining function 'ShiftRows(unsigned char*)' into 'AES128Encrypt(unsigned char const*, unsigned char const*, unsigned char*)'">
+        <args Callee="ShiftRows(unsigned char*)" Callee-DebugLoc="File ../ip_repo/aes128_hls/src/AES_Encrypt.cpp Line 81 Column 0" Caller="AES128Encrypt(unsigned char const*, unsigned char const*, unsigned char*)" Caller-DebugLoc="File ../ip_repo/aes128_hls/src/AES_Encrypt.cpp Line 168 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:168:0" msg_body="Inlining function 'KeyExpansion(unsigned char*, unsigned char)' into 'AES128Encrypt(unsigned char const*, unsigned char const*, unsigned char*)'">
+        <args Callee="KeyExpansion(unsigned char*, unsigned char)" Callee-DebugLoc="File ../ip_repo/aes128_hls/src/AES_Encrypt.cpp Line 36 Column 0" Caller="AES128Encrypt(unsigned char const*, unsigned char const*, unsigned char*)" Caller-DebugLoc="File ../ip_repo/aes128_hls/src/AES_Encrypt.cpp Line 168 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:168:0" msg_body="Inlining function 'xtime(ap_int&lt;8&gt;)' into 'AES128Encrypt(unsigned char const*, unsigned char const*, unsigned char*)'">
+        <args Callee="xtime(ap_int&lt;8&gt;)" Callee-DebugLoc="File ../ip_repo/aes128_hls/src/AES_Encrypt.cpp Line 73 Column 0" Caller="AES128Encrypt(unsigned char const*, unsigned char const*, unsigned char*)" Caller-DebugLoc="File ../ip_repo/aes128_hls/src/AES_Encrypt.cpp Line 168 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:151:16" msg_body="Applying array_partition to 'next_state': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="next_state"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:38:16" msg_body="Applying array_partition to 'subbytes_key.i': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="subbytes_key.i"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:178:16" msg_body="Applying array_partition to 'state': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="state"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../ip_repo/aes128_hls/src/AES_Encrypt.cpp:179:16" msg_body="Applying array_partition to 'scheduled_key': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="scheduled_key"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

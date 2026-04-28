@@ -1,0 +1,451 @@
+Running test 0
+Key: 241D69BE 586313CD A68A620C 1E6DF4EB 
+Plaintext: 5FE1E58A 75E34082 D28BEF49 24CE3A6D 
+Ciphertext: 9872E8E4 FF3BC1E5 536E2490 D8E63865 
+
+Running test 1
+Key: DF82C5E7 7F5C0449 C1811270 C7ABA385 
+Plaintext: 33D2716A 20BA9263 B0662706 678262E8 
+Ciphertext: 204A8CBB D76BF73D 98F02506 9B48CB93 
+
+Running test 2
+Key: CBD7A0EA 4CE5F4FF DE1F95B3 83A10328 
+Plaintext: 16D88829 994F8494 799EF626 EC868631 
+Ciphertext: EF53DE06 998248AB 0793DCC7 10446238 
+
+Running test 3
+Key: 6329A2D9 C35B1A01 7472E94E 125CE2CA 
+Plaintext: 8E21F041 B309F18E 7386EEDF 17C22557 
+Ciphertext: AADB6568 5DB5FD13 FA0B2A8C 1B276F54 
+
+Running test 4
+Key: AE569EE3 132BED4E FB1A7D68 EC9BA588 
+Plaintext: 569DB3C4 FC86AF5B A4CFC290 856DCC0A 
+Ciphertext: 5B5E7F67 EE2BE1A5 836826B3 9240C423 
+
+Running test 5
+Key: CDE75C04 B56B94DA 92031F45 05E53C52 
+Plaintext: 7A591F28 E9560867 84026594 B5B60145 
+Ciphertext: 2EEE76B3 CEE73269 2857CA8C ADBDC849 
+
+Running test 6
+Key: 9E52359E ACC1F9A5 B9857179 B709BC4D 
+Plaintext: FAD7AE4E 34432A81 CD5120F1 23177D1F 
+Ciphertext: 832B4D22 4E269E13 6B2A9064 983727F6 
+
+Running test 7
+Key: 5569800A C699C190 B2078A06 6481E0D2 
+Plaintext: F56DE4A9 BBD3F9BD 342F0E98 9DCD88A3 
+Ciphertext: A69D95E7 DE52A550 D23FC71E 93ABF37F 
+
+Running test 8
+Key: A783200B 526EA613 EC847DE2 5EAD0337 
+Plaintext: F0D06FE3 3CF580B0 1114558F 7C2AC60D 
+Ciphertext: 3AB0045A 09099245 1DAB8602 FB49C067 
+
+Running test 9
+Key: D749BFE9 83547878 5D39FA9B 8EDD6A97 
+Plaintext: 0B74C932 3B9F1E08 F595973C E307DFDF 
+Ciphertext: 0E804996 F6A69A51 AB8241F0 F871AB6F 
+
+Running test 10
+Key: 0FD804B6 8E14AF5C DB40CE7B 5E1096FE 
+Plaintext: F7DE3E5C 952141AB 43C00EB8 357E5001 
+Ciphertext: 08FEBA6B 78366540 34457F69 90280006 
+
+Running test 11
+Key: 7F16443F 66C86295 DCF4CCAC 15560B17 
+Plaintext: 08F7DC90 4ECD4213 1E8F6FDE 3382F0A0 
+Ciphertext: 905E0CFB 847467AE 142B56BB 65870958 
+
+Running test 12
+Key: 04A6DC01 0D7DAC01 9B6DCA89 8EC12898 
+Plaintext: 118B350E 1B5C9217 654FBDE2 4DD802CB 
+Ciphertext: 270CEC42 C9659C16 0986A2F5 2FCA43DB 
+
+Running test 13
+Key: 5A4F059B 4820DB86 F39E56CC 934B7624 
+Plaintext: 036256FB D4009551 49FF8725 6B008FCE 
+Ciphertext: 05C44F7D F7EFD6E0 6E2BBC55 457368EA 
+
+Running test 14
+Key: 303F48B6 E883E92C BCFF97CE 792CAA80 
+Plaintext: B5F082A9 1E992FB7 037E553F 6BEAE95A 
+Ciphertext: 61AD8C5D 8778EAA6 535D833E A40AED46 
+
+Running test 15
+Key: 61AB867B 33C1D38C EF99D149 1826D83A 
+Plaintext: E71FFD63 FE6CD07E 559931B1 2C74AB88 
+Ciphertext: D5F9700D 38A714F5 972B83D6 862A3C84 
+
+All tests passed
+
+C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\sim\verilog>set PATH= 
+
+C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\sim\verilog>call C:/Xilinx/Vivado/2023.1/bin/xelab xil_defaultlib.apatb_AES128Encrypt_top glbl -Oenable_linking_all_libraries  -prj AES128Encrypt.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_1_15 -L floating_point_v7_0_20 --lib "ieee_proposed=./ieee_proposed" -s AES128Encrypt -debug all 
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_AES128Encrypt_top glbl -Oenable_linking_all_libraries -prj AES128Encrypt.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_15 -L floating_point_v7_0_20 --lib ieee_proposed=./ieee_proposed -s AES128Encrypt -debug all 
+Multi-threading is on. Using 30 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/sim/verilog/AES128Encrypt.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_AES128Encrypt_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/sim/verilog/AES128Encrypt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES128Encrypt
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/sim/verilog/AES128Encrypt_control_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES128Encrypt_control_s_axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/sim/verilog/AES128Encrypt_data_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES128Encrypt_data_m_axi
+INFO: [VRFC 10-311] analyzing module AES128Encrypt_data_m_axi_load
+INFO: [VRFC 10-311] analyzing module AES128Encrypt_data_m_axi_store
+INFO: [VRFC 10-311] analyzing module AES128Encrypt_data_m_axi_read
+INFO: [VRFC 10-311] analyzing module AES128Encrypt_data_m_axi_write
+INFO: [VRFC 10-311] analyzing module AES128Encrypt_data_m_axi_burst_converter
+INFO: [VRFC 10-311] analyzing module AES128Encrypt_data_m_axi_throttle
+INFO: [VRFC 10-311] analyzing module AES128Encrypt_data_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module AES128Encrypt_data_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module AES128Encrypt_data_m_axi_srl
+INFO: [VRFC 10-311] analyzing module AES128Encrypt_data_m_axi_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/sim/verilog/AES128Encrypt_MixColumns.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES128Encrypt_MixColumns
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/sim/verilog/AES128Encrypt_Sbox.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES128Encrypt_Sbox
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/sim/verilog/AESL_axi_master_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_master_data
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/sim/verilog/AESL_axi_slave_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.AES128Encrypt_Sbox
+Compiling module xil_defaultlib.AES128Encrypt_MixColumns
+Compiling module xil_defaultlib.AES128Encrypt_control_s_axi
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_srl(DAT...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_fifo(DA...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_mem(MEM...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_fifo(ME...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_srl(DAT...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_fifo(DA...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_srl(DAT...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_fifo(DA...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_store(N...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_mem(MEM...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_fifo(ME...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_load(NU...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_reg_sli...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_burst_c...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_srl(DAT...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_fifo(DA...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_reg_sli...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_srl(DAT...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_fifo(DA...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_srl(DAT...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_fifo(DA...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_throttl...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_reg_sli...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_write(C...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_reg_sli...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi_read(C_...
+Compiling module xil_defaultlib.AES128Encrypt_data_m_axi(CONSERV...
+Compiling module xil_defaultlib.AES128Encrypt
+Compiling module xil_defaultlib.AESL_axi_master_data
+Compiling module xil_defaultlib.AESL_axi_slave_control
+Compiling module xil_defaultlib.nodf_module_intf
+Compiling module xil_defaultlib.pp_loop_intf(FSM_WIDTH=147)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_AES128Encrypt_top
+Compiling module work.glbl
+Built simulation snapshot AES128Encrypt
+ECHO is off.
+ECHO is off.
+
+****** xsim v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/AES128Encrypt/xsim_script.tcl
+# xsim {AES128Encrypt} -view {{AES128Encrypt_dataflow_ana.wcfg}} -tclbatch {AES128Encrypt.tcl} -protoinst {AES128Encrypt.protoinst}
+INFO: [Wavedata 42-565] Reading protoinst file AES128Encrypt.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt//AESL_inst_AES128Encrypt_activity
+Time resolution is 1 ps
+open_wave_config AES128Encrypt_dataflow_ana.wcfg
+source AES128Encrypt.tcl
+## log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set cinoutgroup [add_wave_group "C InOuts" -into $designtopgroup]
+## set key__plaintext__ciphertext_group [add_wave_group key__plaintext__ciphertext(axi_master) -into $cinoutgroup]
+## set rdata_group [add_wave_group "Read Channel" -into $key__plaintext__ciphertext_group]
+## set wdata_group [add_wave_group "Write Channel" -into $key__plaintext__ciphertext_group]
+## set ctrl_group [add_wave_group "Handshakes" -into $key__plaintext__ciphertext_group]
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_BUSER -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_BID -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_BRESP -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_BREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_BVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_RRESP -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_RUSER -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_RID -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_RLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_RDATA -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_RREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_RVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARUSER -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARREGION -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARQOS -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARPROT -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARCACHE -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARLOCK -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARBURST -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARSIZE -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARLEN -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARID -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARADDR -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_ARVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_WUSER -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_WID -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_WLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_WSTRB -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_WDATA -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_WREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_WVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWUSER -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWREGION -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWQOS -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWPROT -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWCACHE -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWLOCK -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWBURST -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWSIZE -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWLEN -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWID -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWADDR -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/m_axi_data_AWVALID -into $ctrl_group -color #ffff00 -radix hex
+## set key__plaintext__ciphertext__return_group [add_wave_group key__plaintext__ciphertext__return(axi_slave) -into $cinoutgroup]
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/interrupt -into $key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_BRESP -into $key__plaintext__ciphertext__return_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_BREADY -into $key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_BVALID -into $key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_RRESP -into $key__plaintext__ciphertext__return_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_RDATA -into $key__plaintext__ciphertext__return_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_RREADY -into $key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_RVALID -into $key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_ARREADY -into $key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_ARVALID -into $key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_ARADDR -into $key__plaintext__ciphertext__return_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_WSTRB -into $key__plaintext__ciphertext__return_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_WDATA -into $key__plaintext__ciphertext__return_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_WREADY -into $key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_WVALID -into $key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_AWREADY -into $key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_AWVALID -into $key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/s_axi_control_AWADDR -into $key__plaintext__ciphertext__return_group -radix hex
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/ap_rst_n -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_AES128Encrypt_top/AESL_inst_AES128Encrypt/ap_clk -into $clockgroup
+## set testbenchgroup [add_wave_group "Test Bench Signals"]
+## set tbinternalsiggroup [add_wave_group "Internal Signals" -into $testbenchgroup]
+## set tb_simstatus_group [add_wave_group "Simulation Status" -into $tbinternalsiggroup]
+## set tb_portdepth_group [add_wave_group "Port Depth" -into $tbinternalsiggroup]
+## add_wave /apatb_AES128Encrypt_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/ready_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/done_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/LENGTH_ciphertext -into $tb_portdepth_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/LENGTH_data -into $tb_portdepth_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/LENGTH_key -into $tb_portdepth_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/LENGTH_plaintext -into $tb_portdepth_group -radix hex
+## set tbcinoutgroup [add_wave_group "C InOuts" -into $testbenchgroup]
+## set tb_key__plaintext__ciphertext_group [add_wave_group key__plaintext__ciphertext(axi_master) -into $tbcinoutgroup]
+## set rdata_group [add_wave_group "Read Channel" -into $tb_key__plaintext__ciphertext_group]
+## set wdata_group [add_wave_group "Write Channel" -into $tb_key__plaintext__ciphertext_group]
+## set ctrl_group [add_wave_group "Handshakes" -into $tb_key__plaintext__ciphertext_group]
+## add_wave /apatb_AES128Encrypt_top/data_BUSER -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_BID -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_BRESP -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_BREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_BVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_RRESP -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_RUSER -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_RID -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_RLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_RDATA -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_RREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_RVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_ARUSER -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_ARREGION -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_ARQOS -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_ARPROT -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_ARCACHE -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_ARLOCK -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_ARBURST -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_ARSIZE -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_ARLEN -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_ARID -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_ARADDR -into $rdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_ARREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_ARVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_WUSER -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_WID -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_WLAST -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_WSTRB -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_WDATA -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_WREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_WVALID -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_AWUSER -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_AWREGION -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_AWQOS -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_AWPROT -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_AWCACHE -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_AWLOCK -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_AWBURST -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_AWSIZE -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_AWLEN -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_AWID -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_AWADDR -into $wdata_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_AWREADY -into $ctrl_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/data_AWVALID -into $ctrl_group -color #ffff00 -radix hex
+## set tb_key__plaintext__ciphertext__return_group [add_wave_group key__plaintext__ciphertext__return(axi_slave) -into $tbcinoutgroup]
+## add_wave /apatb_AES128Encrypt_top/control_INTERRUPT -into $tb_key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_BRESP -into $tb_key__plaintext__ciphertext__return_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_BREADY -into $tb_key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_BVALID -into $tb_key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_RRESP -into $tb_key__plaintext__ciphertext__return_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_RDATA -into $tb_key__plaintext__ciphertext__return_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_RREADY -into $tb_key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_RVALID -into $tb_key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_ARREADY -into $tb_key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_ARVALID -into $tb_key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_ARADDR -into $tb_key__plaintext__ciphertext__return_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_WSTRB -into $tb_key__plaintext__ciphertext__return_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_WDATA -into $tb_key__plaintext__ciphertext__return_group -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_WREADY -into $tb_key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_WVALID -into $tb_key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_AWREADY -into $tb_key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_AWVALID -into $tb_key__plaintext__ciphertext__return_group -color #ffff00 -radix hex
+## add_wave /apatb_AES128Encrypt_top/control_AWADDR -into $tb_key__plaintext__ciphertext__return_group -radix hex
+## save_wave_config AES128Encrypt.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 16 [0.00%] @ "210000"
+// RTL Simulation : 1 / 16 [3.03%] @ "4810000"
+// RTL Simulation : 2 / 16 [3.03%] @ "9230000"
+// RTL Simulation : 3 / 16 [3.03%] @ "13650000"
+// RTL Simulation : 4 / 16 [3.03%] @ "18070000"
+// RTL Simulation : 5 / 16 [3.03%] @ "22490000"
+// RTL Simulation : 6 / 16 [3.03%] @ "26910000"
+// RTL Simulation : 7 / 16 [3.03%] @ "31330000"
+// RTL Simulation : 8 / 16 [3.03%] @ "35750000"
+// RTL Simulation : 9 / 16 [3.03%] @ "40170000"
+// RTL Simulation : 10 / 16 [3.03%] @ "44590000"
+// RTL Simulation : 11 / 16 [3.03%] @ "49010000"
+// RTL Simulation : 12 / 16 [3.03%] @ "53430000"
+// RTL Simulation : 13 / 16 [3.03%] @ "57850000"
+// RTL Simulation : 14 / 16 [3.03%] @ "62270000"
+// RTL Simulation : 15 / 16 [3.03%] @ "66690000"
+// RTL Simulation : 16 / 16 [100.00%] @ "71110000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 71230 ns : File "C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/sim/verilog/AES128Encrypt.autotb.v" Line 435
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue Apr 28 14:42:32 2026...
+Running test 0
+Key: 241D69BE 586313CD A68A620C 1E6DF4EB 
+Plaintext: 5FE1E58A 75E34082 D28BEF49 24CE3A6D 
+Ciphertext: 9872E8E4 FF3BC1E5 536E2490 D8E63865 
+
+Running test 1
+Key: DF82C5E7 7F5C0449 C1811270 C7ABA385 
+Plaintext: 33D2716A 20BA9263 B0662706 678262E8 
+Ciphertext: 204A8CBB D76BF73D 98F02506 9B48CB93 
+
+Running test 2
+Key: CBD7A0EA 4CE5F4FF DE1F95B3 83A10328 
+Plaintext: 16D88829 994F8494 799EF626 EC868631 
+Ciphertext: EF53DE06 998248AB 0793DCC7 10446238 
+
+Running test 3
+Key: 6329A2D9 C35B1A01 7472E94E 125CE2CA 
+Plaintext: 8E21F041 B309F18E 7386EEDF 17C22557 
+Ciphertext: AADB6568 5DB5FD13 FA0B2A8C 1B276F54 
+
+Running test 4
+Key: AE569EE3 132BED4E FB1A7D68 EC9BA588 
+Plaintext: 569DB3C4 FC86AF5B A4CFC290 856DCC0A 
+Ciphertext: 5B5E7F67 EE2BE1A5 836826B3 9240C423 
+
+Running test 5
+Key: CDE75C04 B56B94DA 92031F45 05E53C52 
+Plaintext: 7A591F28 E9560867 84026594 B5B60145 
+Ciphertext: 2EEE76B3 CEE73269 2857CA8C ADBDC849 
+
+Running test 6
+Key: 9E52359E ACC1F9A5 B9857179 B709BC4D 
+Plaintext: FAD7AE4E 34432A81 CD5120F1 23177D1F 
+Ciphertext: 832B4D22 4E269E13 6B2A9064 983727F6 
+
+Running test 7
+Key: 5569800A C699C190 B2078A06 6481E0D2 
+Plaintext: F56DE4A9 BBD3F9BD 342F0E98 9DCD88A3 
+Ciphertext: A69D95E7 DE52A550 D23FC71E 93ABF37F 
+
+Running test 8
+Key: A783200B 526EA613 EC847DE2 5EAD0337 
+Plaintext: F0D06FE3 3CF580B0 1114558F 7C2AC60D 
+Ciphertext: 3AB0045A 09099245 1DAB8602 FB49C067 
+
+Running test 9
+Key: D749BFE9 83547878 5D39FA9B 8EDD6A97 
+Plaintext: 0B74C932 3B9F1E08 F595973C E307DFDF 
+Ciphertext: 0E804996 F6A69A51 AB8241F0 F871AB6F 
+
+Running test 10
+Key: 0FD804B6 8E14AF5C DB40CE7B 5E1096FE 
+Plaintext: F7DE3E5C 952141AB 43C00EB8 357E5001 
+Ciphertext: 08FEBA6B 78366540 34457F69 90280006 
+
+Running test 11
+Key: 7F16443F 66C86295 DCF4CCAC 15560B17 
+Plaintext: 08F7DC90 4ECD4213 1E8F6FDE 3382F0A0 
+Ciphertext: 905E0CFB 847467AE 142B56BB 65870958 
+
+Running test 12
+Key: 04A6DC01 0D7DAC01 9B6DCA89 8EC12898 
+Plaintext: 118B350E 1B5C9217 654FBDE2 4DD802CB 
+Ciphertext: 270CEC42 C9659C16 0986A2F5 2FCA43DB 
+
+Running test 13
+Key: 5A4F059B 4820DB86 F39E56CC 934B7624 
+Plaintext: 036256FB D4009551 49FF8725 6B008FCE 
+Ciphertext: 05C44F7D F7EFD6E0 6E2BBC55 457368EA 
+
+Running test 14
+Key: 303F48B6 E883E92C BCFF97CE 792CAA80 
+Plaintext: B5F082A9 1E992FB7 037E553F 6BEAE95A 
+Ciphertext: 61AD8C5D 8778EAA6 535D833E A40AED46 
+
+Running test 15
+Key: 61AB867B 33C1D38C EF99D149 1826D83A 
+Plaintext: E71FFD63 FE6CD07E 559931B1 2C74AB88 
+Ciphertext: D5F9700D 38A714F5 972B83D6 862A3C84 
+
+All tests passed

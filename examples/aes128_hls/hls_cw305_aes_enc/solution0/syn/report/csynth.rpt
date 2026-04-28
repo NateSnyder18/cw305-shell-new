@@ -1,0 +1,180 @@
+
+
+================================================================
+== Synthesis Summary Report of 'AES128Encrypt'
+================================================================
++ General Information: 
+    * Date:           Tue Apr 28 14:41:50 2026
+    * Version:        2023.1 (Build 3854077 on May  4 2023)
+    * Project:        hls_cw305_aes_enc
+    * Solution:       solution0 (Vitis Kernel Flow Target)
+    * Product family: artix7
+    * Target device:  xc7a100t-ftg256-2
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-----------------+------+-------+---------+-----------+----------+---------+------+----------+---------+----+-----------+------------+-----+
+    |     Modules     | Issue|       | Latency |  Latency  | Iteration|         | Trip |          |         |    |           |            |     |
+    |     & Loops     | Type | Slack | (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined|  BRAM   | DSP|     FF    |     LUT    | URAM|
+    +-----------------+------+-------+---------+-----------+----------+---------+------+----------+---------+----+-----------+------------+-----+
+    |+ AES128Encrypt  |     -|   0.00|      165|  3.300e+03|         -|      166|     -|        no|  16 (5%)|   -|  2208 (1%)|  9420 (14%)|    -|
+    | o LOOP_ROUND    |    II|  14.60|       20|    400.000|         3|        2|    10|       yes|        -|   -|          -|           -|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + Sbox         |    II|   1.91|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|   341 (~0%)|    -|
+    |  + MixColumns   |    II|  12.72|        0|      0.000|         -|        1|     -|       yes|        -|   -|          -|    736 (1%)|    -|
+    +-----------------+------+-------+---------+-----------+----------+---------+------+----------+---------+----+-----------+------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* M_AXI
++------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+| Interface  | Data Width | Address Width | Latency | Offset | Register | Max Widen | Max Read     | Max Write    | Num Read    | Num Write   | Resource Estimate |
+|            | (SW->HW)   |               |         |        |          | Bitwidth  | Burst Length | Burst Length | Outstanding | Outstanding |                   |
++------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+| m_axi_data | 8 -> 128   | 32            | 64      | slave  | 0        | 512       | 16           | 16           | 16          | 16          | BRAM=16           |
++------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+
+* S_AXILITE Interfaces
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 6             | 16     | 0        |
++---------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++---------------+------------+--------+-------+--------+----------------------------------+------------------------------------------------------------------------------------+
+| Interface     | Register   | Offset | Width | Access | Description                      | Bit Fields                                                                         |
++---------------+------------+--------+-------+--------+----------------------------------+------------------------------------------------------------------------------------+
+| s_axi_control | CTRL       | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 4=AP_CONTINUE 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_control | GIER       | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                                           |
+| s_axi_control | IP_IER     | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                                      |
+| s_axi_control | IP_ISR     | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                                      |
+| s_axi_control | key        | 0x10   | 32    | W      | Data signal of key               |                                                                                    |
+| s_axi_control | plaintext  | 0x18   | 32    | W      | Data signal of plaintext         |                                                                                    |
+| s_axi_control | ciphertext | 0x20   | 32    | W      | Data signal of ciphertext        |                                                                                    |
++---------------+------------+--------+-------+--------+----------------------------------+------------------------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+---------------+-----------+
+| Interface | Type          | Ports     |
++-----------+---------------+-----------+
+| ap_clk    | clock         | ap_clk    |
+| ap_rst_n  | reset         | ap_rst_n  |
+| interrupt | interrupt     | interrupt |
+| ap_ctrl   | ap_ctrl_chain |           |
++-----------+---------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++------------+-----------+-----------------------+
+| Argument   | Direction | Datatype              |
++------------+-----------+-----------------------+
+| key        | inout     | unsigned char const * |
+| plaintext  | inout     | unsigned char const * |
+| ciphertext | inout     | unsigned char*        |
++------------+-----------+-----------------------+
+
+* SW-to-HW Mapping
++------------+---------------+-----------+----------+--------------------------------------+
+| Argument   | HW Interface  | HW Type   | HW Usage | HW Info                              |
++------------+---------------+-----------+----------+--------------------------------------+
+| key        | m_axi_data    | interface |          |                                      |
+| key        | s_axi_control | register  | offset   | name=key offset=0x10 range=32        |
+| plaintext  | m_axi_data    | interface |          |                                      |
+| plaintext  | s_axi_control | register  | offset   | name=plaintext offset=0x18 range=32  |
+| ciphertext | m_axi_data    | interface |          |                                      |
+| ciphertext | s_axi_control | register  | offset   | name=ciphertext offset=0x20 range=32 |
++------------+---------------+-----------+----------+--------------------------------------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+* All M_AXI Variable Accesses
++--------------+------------+--------------------------------------------------+-----------+--------------+--------+
+| HW Interface | Variable   | Access Location                                  | Direction | Burst Status | Length |
++--------------+------------+--------------------------------------------------+-----------+--------------+--------+
+| m_axi_data   | plaintext  | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:188:13 | read      | Widened      | 1      |
+| m_axi_data   | plaintext  | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:188:13 | read      | Inferred     | 16     |
+| m_axi_data   | key        | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:189:22 | read      | Widened      | 1      |
+| m_axi_data   | key        | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:189:22 | read      | Inferred     | 16     |
+| m_axi_data   | ciphertext | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:209:16 | write     | Widened      | 1      |
+| m_axi_data   | ciphertext | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:209:16 | write     | Inferred     | 16     |
++--------------+------------+--------------------------------------------------+-----------+--------------+--------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++----------------------+-----+--------+----------+-----+--------+---------+
+| Name                 | DSP | Pragma | Variable | Op  | Impl   | Latency |
++----------------------+-----+--------+----------+-----+--------+---------+
+| + AES128Encrypt      | 0   |        |          |     |        |         |
+|   round_2_fu_1178_p2 | -   |        | round_2  | add | fabric | 0       |
++----------------------+-----+--------+----------+-----+--------+---------+
+
+
+================================================================
+== Bind Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------------+--------------------------------------------------------------+-------------------------------------------------------------------------------+
+| Type            | Options                                                      | Location                                                                      |
++-----------------+--------------------------------------------------------------+-------------------------------------------------------------------------------+
+| unroll          |                                                              | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:22 in subbytes                      |
+| unroll          |                                                              | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:31 in addroundkey                   |
+| array_partition | variable=expanded_key complete                               | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:40 in keyexpansion, expanded_key    |
+| array_partition | variable=subbytes_key complete                               | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:41 in keyexpansion, subbytes_key    |
+| unroll          |                                                              | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:46 in keyexpansion                  |
+| unroll          |                                                              | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:62 in keyexpansion                  |
+| unroll          |                                                              | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:68 in keyexpansion                  |
+| array_partition | variable=next_state complete                                 | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:83 in shiftrows, next_state         |
+| unroll          |                                                              | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:117 in shiftrows                    |
+| pipeline        |                                                              | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:138 in mixsinglecolumn              |
+| inline          | recursive                                                    | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:150 in mixcolumns                   |
+| array_partition | variable=next_state complete                                 | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:152 in mixcolumns, next_state       |
+| unroll          |                                                              | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:157 in mixcolumns                   |
+| unroll          |                                                              | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:161 in mixcolumns                   |
+| interface       | mode=m_axi port=key offset=slave bundle=data depth=16        | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:169 in aes128encrypt, key           |
+| interface       | mode=m_axi port=plaintext offset=slave bundle=data depth=16  | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:170 in aes128encrypt, plaintext     |
+| interface       | mode=m_axi port=ciphertext offset=slave bundle=data depth=16 | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:171 in aes128encrypt, ciphertext    |
+| array_partition | variable=state complete                                      | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:182 in aes128encrypt, state         |
+| array_partition | variable=scheduled_key complete                              | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:183 in aes128encrypt, scheduled_key |
+| unroll          |                                                              | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:187 in aes128encrypt                |
+| pipeline        |                                                              | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:195 in aes128encrypt                |
+| unroll          |                                                              | ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:208 in aes128encrypt                |
+| unroll          |                                                              | ../ip_repo/aes128_hls/src/Sbox_Composite.cpp:74 in gf8_isomorphic_map         |
+| unroll          |                                                              | ../ip_repo/aes128_hls/src/Sbox_Composite.cpp:84 in gf8_inv_isomorphic_map     |
+| unroll          |                                                              | ../ip_repo/aes128_hls/src/Sbox_Composite.cpp:116 in affine_transform          |
+| inline          | recursive                                                    | ../ip_repo/aes128_hls/src/Sbox_Composite.cpp:165 in sbox                      |
++-----------------+--------------------------------------------------------------+-------------------------------------------------------------------------------+
+
+

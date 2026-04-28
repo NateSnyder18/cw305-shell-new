@@ -1,0 +1,76 @@
+---
+MainSourceFile:  'C:/Users/dtk/cw305-shell/examples/aes128_hls/hls_cw305_aes_enc/solution0/.autopilot/db/Sbox_Composite.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1213_1:  '
+    FileOffset:      1213
+    FilePath:        'C:\Xilinx\Vitis_HLS\2023.1\common\technology\autopilot\etc\ap_int_base.h'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\Sbox_Composite.pp.0.cpp'
+        Offset:          55364
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'C:\Xilinx\Vitis_HLS\2023.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\Sbox_Composite.pp.0.cpp'
+        Offset:          282688
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'C:\Xilinx\Vitis_HLS\2023.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\Sbox_Composite.pp.0.cpp'
+        Offset:          283152
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'C:\Xilinx\Vitis_HLS\2023.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\Sbox_Composite.pp.0.cpp'
+        Offset:          283617
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        'C:\Xilinx\Vitis_HLS\2023.1\common\technology\autopilot\etc\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\Sbox_Composite.pp.0.cpp'
+        Offset:          566294
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_1:  '
+    FileOffset:      73
+    FilePath:        'C:\Users\dtk\cw305-shell\examples\ip_repo\aes128_hls\src\Sbox_Composite.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\Sbox_Composite.pp.0.cpp'
+        Offset:          934650
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_83_1:  '
+    FileOffset:      83
+    FilePath:        'C:\Users\dtk\cw305-shell\examples\ip_repo\aes128_hls\src\Sbox_Composite.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\Sbox_Composite.pp.0.cpp'
+        Offset:          934823
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_83_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_115_1:  '
+    FileOffset:      115
+    FilePath:        'C:\Users\dtk\cw305-shell\examples\ip_repo\aes128_hls\src\Sbox_Composite.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\dtk\cw305-shell\examples\aes128_hls\hls_cw305_aes_enc\solution0\.autopilot\db\Sbox_Composite.pp.0.cpp'
+        Offset:          935273
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_115_1: '
+...

@@ -1,0 +1,250 @@
+{
+  "0": {
+    "basicblocks": 21,
+    "calls": "14 4 9 17 15 7 14",
+    "file": "AES_Encrypt.cpp",
+    "fileloc": 167,
+    "instructions": 98,
+    "loads": {
+      "L": 3,
+      "T": 2
+    },
+    "name": "AES128Encrypt",
+    "stores": {
+      "L": 4,
+      "T": 1
+    },
+    "total_instructions": 18626
+  },
+  "1": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "Sbox_Composite.cpp",
+    "fileloc": 70,
+    "instructions": 27,
+    "name": "gf8_isomorphic_map",
+    "total_instructions": 117
+  },
+  "10": {
+    "basicblocks": 1,
+    "calls": "11 5 21",
+    "file": "Sbox_Composite.pp.0.cpp",
+    "fileloc": 0,
+    "instructions": 4,
+    "name": "",
+    "total_instructions": 439
+  },
+  "11": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "Sbox_Composite.cpp",
+    "fileloc": 18,
+    "instructions": 9,
+    "name": "__cxx_global_var_init",
+    "total_instructions": 145
+  },
+  "12": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "Sbox_Composite.cpp",
+    "fileloc": 90,
+    "instructions": 64,
+    "name": "gf4_square",
+    "total_instructions": 335
+  },
+  "13": {
+    "basicblocks": 1,
+    "calls": "1 12 20 16 8 16 16 6 2",
+    "file": "Sbox_Composite.cpp",
+    "fileloc": 163,
+    "instructions": 135,
+    "loads": {
+      "L": 12
+    },
+    "name": "Sbox",
+    "stores": {
+      "L": 12
+    },
+    "total_instructions": 8630
+  },
+  "14": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "AES_Encrypt.cpp",
+    "fileloc": 27,
+    "instructions": 22,
+    "loads": {
+      "L": 2
+    },
+    "name": "AddRoundKey",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 22
+  },
+  "15": {
+    "basicblocks": 19,
+    "calls": "13",
+    "file": "AES_Encrypt.cpp",
+    "fileloc": 36,
+    "instructions": 136,
+    "loads": {
+      "L": 15
+    },
+    "name": "KeyExpansion",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 8766
+  },
+  "16": {
+    "basicblocks": 1,
+    "calls": "3 3 3 19",
+    "file": "Sbox_Composite.cpp",
+    "fileloc": 122,
+    "instructions": 179,
+    "loads": {
+      "L": 14
+    },
+    "name": "gf4_mult",
+    "stores": {
+      "L": 14
+    },
+    "total_instructions": 1871
+  },
+  "17": {
+    "basicblocks": 13,
+    "calls": "18",
+    "file": "AES_Encrypt.cpp",
+    "fileloc": 149,
+    "instructions": 42,
+    "loads": {
+      "L": 1
+    },
+    "name": "MixColumns",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 571
+  },
+  "18": {
+    "basicblocks": 7,
+    "calls": "7",
+    "file": "AES_Encrypt.cpp",
+    "fileloc": 122,
+    "instructions": 117,
+    "loads": {
+      "L": 21
+    },
+    "name": "MixSingleColumn",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 529
+  },
+  "19": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "Sbox_Composite.cpp",
+    "fileloc": 59,
+    "instructions": 28,
+    "name": "gf2_mult_phi",
+    "total_instructions": 150
+  },
+  "2": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "Sbox_Composite.cpp",
+    "fileloc": 112,
+    "instructions": 40,
+    "name": "affine_transform",
+    "total_instructions": 247
+  },
+  "20": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "Sbox_Composite.cpp",
+    "fileloc": 100,
+    "instructions": 66,
+    "name": "gf4_mult_lambda",
+    "total_instructions": 341
+  },
+  "21": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "Sbox_Composite.cpp",
+    "fileloc": 40,
+    "instructions": 9,
+    "name": "__cxx_global_var_init.2",
+    "total_instructions": 145
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "Sbox_Composite.cpp",
+    "fileloc": 51,
+    "instructions": 68,
+    "name": "gf2_mult",
+    "total_instructions": 319
+  },
+  "4": {
+    "basicblocks": 7,
+    "calls": "13",
+    "file": "AES_Encrypt.cpp",
+    "fileloc": 18,
+    "instructions": 16,
+    "name": "SubBytes",
+    "total_instructions": 8646
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "Sbox_Composite.cpp",
+    "fileloc": 29,
+    "instructions": 9,
+    "name": "__cxx_global_var_init.1",
+    "total_instructions": 145
+  },
+  "6": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "Sbox_Composite.cpp",
+    "fileloc": 80,
+    "instructions": 27,
+    "name": "gf8_inv_isomorphic_map",
+    "total_instructions": 117
+  },
+  "7": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "AES_Encrypt.cpp",
+    "fileloc": 73,
+    "instructions": 23,
+    "name": "xtime",
+    "total_instructions": 392
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "Sbox_Composite.cpp",
+    "fileloc": 151,
+    "instructions": 314,
+    "name": "gf4_mult_inv",
+    "total_instructions": 1379
+  },
+  "9": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "AES_Encrypt.cpp",
+    "fileloc": 81,
+    "instructions": 87,
+    "loads": {
+      "L": 17
+    },
+    "name": "ShiftRows",
+    "stores": {
+      "L": 17
+    },
+    "total_instructions": 87
+  }
+}

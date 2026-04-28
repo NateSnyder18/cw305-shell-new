@@ -1,0 +1,7 @@
+   Build using "C:/Xilinx/Vitis_HLS/2023.1/tps/win64/msys64/mingw64/bin/g++"
+   Compiling Sbox_Composite.cpp_pre.cpp.tb.cpp
+   Compiling test_aes.cpp_pre.cpp.tb.cpp
+   Compiling apatb_AES128Encrypt.cpp
+   Compiling AES_Encrypt.cpp_pre.cpp.tb.cpp
+   Compiling apatb_AES128Encrypt_ir.ll
+   Generating cosim.tv.exe

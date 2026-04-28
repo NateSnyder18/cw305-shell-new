@@ -1,0 +1,183 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.1 (64-bit)
+Tool Version Limit: 2023.05
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1510] Running: set_part xc7a100tftg256-2 
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-ftg256-2'
+INFO: [HLS 200-1510] Running: create_clock -period 50MHz 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 20ns.
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64=false 
+INFO: [HLS 200-1510] Running: csim_design 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 7.245 seconds; current allocated memory: 1.098 MB.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.105 seconds; current allocated memory: 106.648 MB.
+INFO: [HLS 200-10] Analyzing design file '../ip_repo/aes128_hls/src/AES_Encrypt.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '../ip_repo/aes128_hls/src/Sbox_Composite.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.758 seconds; current allocated memory: 109.559 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_67_3' is marked as complete unroll implied by the pipeline pragma (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:67:19)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_61_2' is marked as complete unroll implied by the pipeline pragma (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:61:19)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_45_1' is marked as complete unroll implied by the pipeline pragma (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:45:19)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_160_2' is marked as complete unroll implied by the pipeline pragma (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:160:20)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_156_1' is marked as complete unroll implied by the pipeline pragma (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:156:20)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_136_1' is marked as complete unroll implied by the pipeline pragma (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:136:20)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_116_1' is marked as complete unroll implied by the pipeline pragma (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:116:20)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_21_1' is marked as complete unroll implied by the pipeline pragma (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:21:19)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_115_1' is marked as complete unroll implied by the pipeline pragma (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:115:20)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_83_1' is marked as complete unroll implied by the pipeline pragma (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:83:19)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_73_1' is marked as complete unroll implied by the pipeline pragma (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:73:19)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_30_1' is marked as complete unroll implied by the pipeline pragma (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:30:19)
+INFO: [HLS 214-186] Unrolling loop 'LOOP_COPY_OUT' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:207:17) in function 'AES128Encrypt' completely with a factor of 16 (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:168:0)
+INFO: [HLS 214-186] Unrolling loop 'LOOP_COPY_IN' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:186:16) in function 'AES128Encrypt' completely with a factor of 16 (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:168:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_67_3' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:67:19) in function 'KeyExpansion' completely with a factor of 16 (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:36:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_61_2' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:61:19) in function 'KeyExpansion' completely with a factor of 12 (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:36:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_45_1' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:45:19) in function 'KeyExpansion' completely with a factor of 4 (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:36:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_160_2' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:160:20) in function 'MixColumns' completely with a factor of 16 (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:149:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_156_1' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:156:20) in function 'MixColumns' completely with a factor of 4 (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:149:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_136_1' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:136:20) in function 'MixSingleColumn' completely with a factor of 4 (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:123:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'VITIS_LOOP_136_1' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:136:20) in function 'MixSingleColumn' has been removed because the loop is unrolled completely (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:123:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_116_1' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:116:20) in function 'ShiftRows' completely with a factor of 16 (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:81:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_21_1' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:21:19) in function 'SubBytes' completely with a factor of 16 (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:18:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_115_1' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:115:20) in function 'affine_transform' completely with a factor of 8 (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:113:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_83_1' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:83:19) in function 'gf8_inv_isomorphic_map' completely with a factor of 8 (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:81:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_73_1' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:73:19) in function 'gf8_isomorphic_map' completely with a factor of 8 (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:71:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_30_1' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:30:19) in function 'AddRoundKey' completely with a factor of 16 (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:27:0)
+INFO: [HLS 214-178] Inlining function 'gf2_mult(ap_int<2>, ap_int<2>)' into 'gf4_mult(ap_int<4>, ap_int<4>)' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:123:0)
+INFO: [HLS 214-178] Inlining function 'gf2_mult_phi(ap_int<2>)' into 'gf4_mult(ap_int<4>, ap_int<4>)' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:123:0)
+INFO: [HLS 214-178] Inlining function 'gf8_isomorphic_map(ap_int<8>)' into 'Sbox(unsigned char*, unsigned char*)' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:164:0)
+INFO: [HLS 214-178] Inlining function 'gf4_square(ap_int<4>)' into 'Sbox(unsigned char*, unsigned char*)' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:164:0)
+INFO: [HLS 214-178] Inlining function 'gf4_mult_lambda(ap_int<4>)' into 'Sbox(unsigned char*, unsigned char*)' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:164:0)
+INFO: [HLS 214-178] Inlining function 'gf4_mult_inv(ap_int<4>)' into 'Sbox(unsigned char*, unsigned char*)' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:164:0)
+INFO: [HLS 214-178] Inlining function 'gf8_inv_isomorphic_map(ap_int<8>)' into 'Sbox(unsigned char*, unsigned char*)' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:164:0)
+INFO: [HLS 214-178] Inlining function 'affine_transform(ap_int<8>)' into 'Sbox(unsigned char*, unsigned char*)' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:164:0)
+INFO: [HLS 214-178] Inlining function 'xtime(ap_int<8>)' into 'MixSingleColumn(unsigned char*, unsigned char*)' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:123:0)
+INFO: [HLS 214-178] Inlining function 'SubBytes(unsigned char*)' into 'AES128Encrypt(unsigned char const*, unsigned char const*, unsigned char*)' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:168:0)
+INFO: [HLS 214-178] Inlining function 'ShiftRows(unsigned char*)' into 'AES128Encrypt(unsigned char const*, unsigned char const*, unsigned char*)' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:168:0)
+INFO: [HLS 214-178] Inlining function 'KeyExpansion(unsigned char*, unsigned char)' into 'AES128Encrypt(unsigned char const*, unsigned char const*, unsigned char*)' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:168:0)
+INFO: [HLS 214-178] Inlining function 'xtime(ap_int<8>)' into 'AES128Encrypt(unsigned char const*, unsigned char const*, unsigned char*)' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:168:0)
+INFO: [HLS 214-248] Applying array_partition to 'next_state': Complete partitioning on dimension 1. (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:151:16)
+INFO: [HLS 214-248] Applying array_partition to 'subbytes_key.i': Complete partitioning on dimension 1. (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:38:16)
+INFO: [HLS 214-248] Applying array_partition to 'state': Complete partitioning on dimension 1. (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:178:16)
+INFO: [HLS 214-248] Applying array_partition to 'scheduled_key': Complete partitioning on dimension 1. (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:179:16)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.493 seconds; current allocated memory: 111.172 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.007 seconds; current allocated memory: 111.172 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'gf4_mult' into 'Sbox' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:179).
+INFO: [XFORM 203-603] Inlining function 'gf4_mult' into 'Sbox' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:185).
+INFO: [XFORM 203-603] Inlining function 'gf4_mult' into 'Sbox' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:185).
+INFO: [XFORM 203-603] Inlining function 'MixSingleColumn' into 'MixColumns' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:158).
+INFO: [XFORM 203-603] Inlining function 'MixSingleColumn' into 'MixColumns' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:158).
+INFO: [XFORM 203-603] Inlining function 'MixSingleColumn' into 'MixColumns' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:158).
+INFO: [XFORM 203-603] Inlining function 'MixSingleColumn' into 'MixColumns' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:158).
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.139 seconds; current allocated memory: 118.176 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'AddRoundKey' into 'AES128Encrypt' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:192) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.073 seconds; current allocated memory: 120.637 MB.
+INFO: [XFORM 203-602] Inlining function 'AddRoundKey' into 'AES128Encrypt' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:192) automatically.
+INFO: [XFORM 203-11] Balancing expressions in function 'Sbox' (../ip_repo/aes128_hls/src/Sbox_Composite.cpp:54:1)...7 expression(s) balanced.
+INFO: [XFORM 203-11] Balancing expressions in function 'MixColumns' (../ip_repo/aes128_hls/src/AES_Encrypt.cpp:74:1)...56 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.213 seconds; current allocated memory: 145.105 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.201 seconds; current allocated memory: 159.020 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'AES128Encrypt' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Sbox' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'Sbox'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'Sbox'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.917 seconds; current allocated memory: 164.875 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.089 seconds; current allocated memory: 165.992 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MixColumns' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'MixColumns'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'MixColumns'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.296 seconds; current allocated memory: 167.004 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.058 seconds; current allocated memory: 167.395 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'AES128Encrypt' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'LOOP_ROUND'.
+WARNING: [HLS 200-880] The II Violation in module 'AES128Encrypt' (loop 'LOOP_ROUND'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'xor' operation ('scheduled_key', ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:60->../ip_repo/aes128_hls/src/AES_Encrypt.cpp:201) and 'call' operation ('subbytes_key', ../ip_repo/aes128_hls/src/AES_Encrypt.cpp:47->../ip_repo/aes128_hls/src/AES_Encrypt.cpp:201) to 'Sbox'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 2, Depth = 3, loop 'LOOP_ROUND'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.932 seconds; current allocated memory: 187.016 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.406 seconds; current allocated memory: 187.016 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Sbox' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Sbox'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.336 seconds; current allocated memory: 187.016 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'MixColumns' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'MixColumns'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.534 seconds; current allocated memory: 187.016 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'AES128Encrypt' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'AES128Encrypt/data' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'AES128Encrypt/key' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'AES128Encrypt/plaintext' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'AES128Encrypt/ciphertext' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'AES128Encrypt' to 's_axilite & ap_ctrl_chain'.
+INFO: [RTGEN 206-100] Bundling port 'key', 'plaintext', 'ciphertext' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'AES128Encrypt'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.679 seconds; current allocated memory: 189.016 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.302 seconds; current allocated memory: 198.090 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.92 seconds; current allocated memory: 202.992 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for AES128Encrypt.
+INFO: [VLOG 209-307] Generating Verilog RTL for AES128Encrypt.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 68.49 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 6 seconds. CPU system time: 2 seconds. Elapsed time: 21.501 seconds; current allocated memory: 96.859 MB.
+INFO: [HLS 200-1510] Running: cosim_design -trace_level all 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+INFO: [COSIM 212-302] Starting C TB testing ... 
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [COSIM 212-316] Starting C post checking ...
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 41.594 seconds; current allocated memory: 11.035 MB.
+INFO: [HLS 200-1510] Running: export_design -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file hls_cw305_aes_enc/solution0/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 16.492 seconds; current allocated memory: 3.988 MB.
